@@ -162,4 +162,15 @@ public class MyQueue {
         return Integer.parseInt(stack.Pop());
     }
 
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        String prefix = sc.nextLine();
+        String postfix = ShuntingYard(prefix);
+        System.out.println(postfix);
+
+        // 3 * ( 9 - 7 ) - 6 / ( 5 - 4 )
+        System.out.println(computePostfix(postfix));
+
+    }
+
 }
