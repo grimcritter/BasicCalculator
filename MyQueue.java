@@ -1,5 +1,5 @@
 import java.util.*;
-
+//eiei
 class Queue{
     public Node first, last;
 
