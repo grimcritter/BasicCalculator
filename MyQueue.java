@@ -1,5 +1,6 @@
 import java.util.*;
 
+//This code use for education
 class Queue{
     public Node first, last;
 
