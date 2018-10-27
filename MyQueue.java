@@ -156,7 +156,7 @@ public class MyQueue {
             }
             else{
                 stack.Push(s);
-                //System.out.println(stack.Top());
+                System.out.println(stack.Top());
             }
         }
         return Integer.parseInt(stack.Pop());
