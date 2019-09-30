@@ -168,7 +168,7 @@ public class MyQueue {
         String postfix = ShuntingYard(prefix);
         System.out.println(postfix);
 
-        // 3 * ( 9 - 7 ) - 6 / ( 5 - 4 )
+        // Example 3 * ( 9 - 7 ) - 6 / ( 5 - 4 )
         System.out.println(computePostfix(postfix));
 
     }
